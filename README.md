@@ -20,9 +20,4 @@ This project extracts key fields from a PDF invoice using Python.
 
 1. Save a sample invoice as `sample_invoice.pdf` in the same folder.
 2. Install dependencies:
-
-```bash
 pip install -r requirements.txt
-
-Run the parser:
-python parse_invoice.py
