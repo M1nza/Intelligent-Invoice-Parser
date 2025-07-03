@@ -1,7 +1,5 @@
 {
     "invoice_number": "12345",
     "invoice_date": "01/20/2023",
-    "due_date": "02/19/2023",
     "total": "1,234.56",
-    "vendor": "Sample Company LLC"
 }
