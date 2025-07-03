@@ -44,9 +44,6 @@ def extract_invoice_data(text):
     else:
         invoice_data['Date'] = 'Not Found'
 
-    # Vendor: Not available in snippet, fallback to Not Found
-    invoice_data['Vendor'] = 'Not Found'
-
     # Total Amount: try to find last amount in format "number,number €"
     amounts = re.findall(r'(\d{1,3}(?:\.\d{3})*,\d{2})\s*€', text)
     if amounts:
